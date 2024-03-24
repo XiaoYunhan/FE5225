@@ -1,0 +1,35 @@
+### Logistic Regression:
+
+- Average Accuracy: 88.27%
+- Average ROC-AUC: 96.25%
+- Average F1-score: 88.31%
+
+### SVM:
+
+- Average Accuracy: 99.92%
+- Average ROC-AUC: 99.99976%
+- Average F1-score: 99.91997%
+
+### Decision Tree:
+
+- Average Accuracy: 99.85%
+- Average ROC-AUC: 99.85%
+- Average F1-score: 99.85%
+
+### Random Forest:
+
+- Average Accuracy: 99.85%
+- Average ROC-AUC: 99.9981%
+- Average F1-score: 99.85%
+
+### Model Comparison:
+
+When comparing the models, it's clear that the SVM, Decision Tree, and Random Forest models have outstanding performance, significantly outperforming the Logistic Regression model across all metrics. Here's a breakdown of their performance in cross-validation:
+
+- SVM has the highest average accuracy and F1-score and shares the highest ROC-AUC score with Random Forest, making it the top-performing model in this comparison.
+
+- Random Forest is comparable to SVM in terms of ROC-AUC, sharing the highest score and closely following SVM in accuracy and F1-score.
+
+- Decision Tree is also a strong performer, with accuracy and F1-score that are marginally less than SVM and Random Forest but still extremely high. Its ROC-AUC is slightly lower, indicating that it might not perform as well on varied datasets or with different distributions.
+
+- Logistic Regression has the lowest performance among the four models. However, its ROC-AUC score is relatively high, which suggests it still does a good job at ranking predictions and separating the classes but with less precision and recall, as indicated by the lower accuracy and F1-score.
